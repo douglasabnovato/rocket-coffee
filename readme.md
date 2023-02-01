@@ -105,7 +105,7 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-5.jpg" width="400px">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-1.jpg" width="400px">
 </p>  
 
 - Mobile
