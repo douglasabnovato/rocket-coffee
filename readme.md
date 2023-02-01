@@ -40,11 +40,7 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 - [O Guia Estelar de JavaScript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script)
 - [Pilotando com a DOM](https://app.rocketseat.com.br/node/pilotando-com-a-dom)
 
-### ✅ Requisitos
-
-![preview.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3c2bd17-dd6b-4aa2-b5af-b3b4f2da8eeb/preview.png)
-
-#### ✅ **[Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72)**
+### ✅ [Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72) 
 
 - [ ] Seguir o layout do Figma.
 - [ ] Deixar o layout responsivo conforme o Figma.

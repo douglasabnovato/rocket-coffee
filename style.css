@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    background: #b91f1f;
+}
+
+body {
+    background: rgb(26, 104, 30);
+}
+
+.box {
+    width: 80vw;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1vh auto;
+}
