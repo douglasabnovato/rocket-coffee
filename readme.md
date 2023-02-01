@@ -43,8 +43,8 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 ### ✅ [Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72) 
 
 - [ ] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
-- [ ] layout responsivo 
-- [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo 
+- [x] layout responsivo 
+- [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo: aperfeiçoar o background
 - [ ] Adicionar `hover` nos botões.
 
 ### 🎨 Style Guide
@@ -80,12 +80,14 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, listados e descritos as tarefas em readme.
 
-- [ ] Menu com 5 Itens
-- [ ] Logo
-- [ ] Botão
-- [ ] Header
-- [ ] Banner
-- [ ] Hamburguer
+- [x] Menu com 5 Itens
+- [x] Logo
+- [ ] Botão: uma funcionalidade
+- [x] Header
+- [x] Banner
+- [ ] Hamburguer: na posição correto no mobile
+- [ ] Background aperfeiçoado
+- [ ] criar âncoras do menu
 
 #### 📅 Gestão do projeto
 
