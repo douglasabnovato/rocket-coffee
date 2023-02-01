@@ -12,7 +12,7 @@ html {
         text-align: center;
     }
 
-    .hero .container img {
+    .hero .container .image-coffee img {
         order: -1;
     }
 
@@ -95,6 +95,10 @@ html {
 /**
 * mobile
 */
-@media (max-width: 320px) {
-    
+@media (max-width: 375px) {
+
+    section.hero .container .texts .text-um,
+    section.hero .container .texts .text-dois {
+        font-size: 30px;
+    }
 }

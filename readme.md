@@ -85,8 +85,8 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [ ] Botão: estilizar e uma funcionalidade
 - [x] Header
 - [x] Banner
-- [ ] Hamburguer: na posição correto no mobile 
-- [ ] Background aperfeiçoado
+- [ ] Hamburguer: na posição correto no mobile, usar as svg 
+- [ ] Background com os efeitos nos círculos
 - [ ] criar âncoras do menu
 
 #### 📅 Gestão do projeto
@@ -105,13 +105,14 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-2.jpg" width="400px">
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-1.jpg" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-2.jpg" height="400px"> 
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-1.jpg" height="400px"> 
 </p>  
 
 #### 📅 Consultas
