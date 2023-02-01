@@ -43,8 +43,8 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 ### ✅ [Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72) 
 
 - [ ] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
-- [ ] layout responsivo 
-- [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo 
+- [x] layout responsivo 
+- [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo: aperfeiçoar o background
 - [ ] Adicionar `hover` nos botões.
 
 ### 🎨 Style Guide
@@ -74,11 +74,20 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 #### 🎨 Fontes 
 
-- [ ] font-family: Manrope; font-weight: 400 e 700 
+- [x] font-family: Manrope; font-weight: 400 e 700 
 
 ### 📅 Entregas
 
 A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, listados e descritos as tarefas em readme.
+
+- [ ] Menu com 5 Itens: estilizar hover
+- [x] Logo
+- [ ] Botão: estilizar e uma funcionalidade
+- [x] Header
+- [x] Banner
+- [ ] Hamburguer: na posição correto no mobile, usar as svg 
+- [ ] Background com os efeitos nos círculos
+- [ ] criar âncoras do menu
 
 #### 📅 Gestão do projeto
 
@@ -96,13 +105,14 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="login form" title="#login-form" src="./.github/desktop-5.jpg" width="400px">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-2.jpg" width="400px">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-1.jpg" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="login form" title="#rocketnews" src="./.github/mobile-2.jpg" height="400px"> 
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-1.jpg" height="400px"> 
 </p>  
 
 #### 📅 Consultas
