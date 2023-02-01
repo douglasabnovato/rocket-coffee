@@ -42,8 +42,8 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 ### ✅ [Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72) 
 
-- [ ] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
 - [x] layout responsivo 
+- [ ] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
 - [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo: aperfeiçoar o background
 - [ ] Adicionar `hover` nos botões.
 
@@ -53,14 +53,21 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 #### 🎨 css
 
-- [ ] Para criar o stroke do título `<Great Code />` utilize a seguinte estilização:
+- [x] Para criar o stroke do título `<Great Code />` utilize a seguinte estilização:
     ```css
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    ```
+- Eu tinha utilizado o trecho a seguir, mas a primeira opção é a melhor.
+    ```css
+      -webkit-text-stroke: 2px var(--button);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      opacity: 1;
     ```
 - [ ] Adicionando animações
 
 #### 🎨 Cores 
 
+- [x] Adicionar variáveis
 ```css
 :root {
   --backgrond: #000;
@@ -80,11 +87,11 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, listados e descritos as tarefas em readme.
 
-- [ ] Menu com 5 Itens: estilizar hover
 - [x] Logo
-- [ ] Botão: estilizar e uma funcionalidade
 - [x] Header
 - [x] Banner
+- [ ] Menu com 5 Itens: estilizar hover
+- [ ] Botão: estilizar e uma funcionalidade
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 
 - [ ] Background com os efeitos nos círculos
 - [ ] criar âncoras do menu
