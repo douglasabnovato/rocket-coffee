@@ -16,9 +16,6 @@ html {
         order: -1;
     }
 
-    .form-group {
-        display: block;
-    }
 }
 
 /**
@@ -99,7 +96,5 @@ html {
 * mobile
 */
 @media (max-width: 320px) {
-    #form h3 {
-        font-size: 2rem;
-    }
+    
 }

@@ -80,12 +80,12 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, listados e descritos as tarefas em readme.
 
-- [x] Menu com 5 Itens
+- [ ] Menu com 5 Itens: estilizar hover
 - [x] Logo
-- [ ] Botão: uma funcionalidade
+- [ ] Botão: estilizar e uma funcionalidade
 - [x] Header
 - [x] Banner
-- [ ] Hamburguer: na posição correto no mobile
+- [ ] Hamburguer: na posição correto no mobile 
 - [ ] Background aperfeiçoado
 - [ ] criar âncoras do menu
 

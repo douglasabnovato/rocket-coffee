@@ -31,6 +31,7 @@ body {
 
 body {
     font-size: 1.6rem;
+    background-color: var(--backgrond);
 }
 
 /* GERAL */
@@ -49,23 +50,6 @@ h3 {
     color: rgb(75, 75, 75);
     font-size: 2.8rem;
     line-height: 3.8rem;
-}
-
-.button {
-    display: inline-block;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    background-color: rgb(113, 89, 193);
-    margin: 15px 0px 0px;
-    padding: 12px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: all 150ms linear 0s;
-}
-
-.button:hover {
-    opacity: 0.9;
 }
 
 /* MENU NAVEGAÇÃO */
@@ -118,6 +102,7 @@ header nav ul li a:hover {
 
 header .botaopegar {
     color: var(--text-color);
+    background: var(--backgrond);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -127,23 +112,32 @@ header .botaopegar {
     border: 1px solid var(--button);
     border-radius: 6px;
     margin: 0 15px;
+    transition: all 150ms linear 0s;
+}
+
+header .botaopegar:hover {
+    opacity: 0.4;
+    cursor: pointer;
 }
 
 /* HERO */
 
-section.hero {
-    margin: 0 auto;
-    width: 90%;
+section.hero { 
+    width: 100%;
     max-width: 100vw;
 }
 
 section.hero .container {
-    margin: 0 auto;
-    width: 90%;
+    width: 80%;
     max-width: 100vw;
+    margin: 0 auto;
 }
 
-section.hero .container .text-um {
+section.hero .container .texts{ 
+    margin: 0 auto;
+}
+
+section.hero .container .texts .text-um {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -154,34 +148,32 @@ section.hero .container .text-um {
     color: var(--text-color);
     width: 90%;
     max-width: 100vw;
-    height: 109px;
+    height: 109px; 
 }
 
-section.hero .container .text-dois {
+section.hero .container .texts .text-dois {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 109px;
     letter-spacing: -0.03em;
-
-    border: 2px solid var(--button);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
     width: 90%;
     max-width: 100vw;
     height: 109px;
+    -webkit-text-stroke: 2px var(--button);
+    opacity: 1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section.hero .container img {
-    margin: auto;
-    width: 90%;
-    max-width: 980px;
+section.hero .container .image-coffee {
+    width: 100%;
+    max-width: 100vw;
 }
 
-section.hero .container img .image-coffee {
-    margin: auto;
-    width: 90%;
-    max-width: 980px;
+section.hero .container .image-coffee img {
+    width: 100%;
+    max-width: 100vw;
 }
 
 /* MAIN */
@@ -189,14 +181,101 @@ main {
     margin-bottom: 80px;
 }
 
-main section.hero p {
+main section.home .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+main section.home .container p {
     color: rgb(154, 142, 191);
     font-size: 1.8rem;
     line-height: 3.2rem;
     margin: 10px 0px 0px;
 }
 
-main section.hero h3 {
+main section.home .container h3 {
+    color: rgb(75, 75, 75);
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+
+main section.menu .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+main section.menu .container p {
+    color: rgb(154, 142, 191);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 10px 0px 0px;
+}
+
+main section.menu .container h3 {
+    color: rgb(75, 75, 75);
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+
+main section.recompensas .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+main section.recompensas .container p {
+    color: rgb(154, 142, 191);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 10px 0px 0px;
+}
+
+main section.recompensas .container h3 {
+    color: rgb(75, 75, 75);
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+
+main section.giftcards .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+main section.giftcards .container p {
+    color: rgb(154, 142, 191);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 10px 0px 0px;
+}
+
+main section.giftcards .container h3 {
+    color: rgb(75, 75, 75);
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+
+main section.lojas .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+main section.lojas .container p {
+    color: rgb(154, 142, 191);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 10px 0px 0px;
+}
+
+main section.lojas .container h3 {
     color: rgb(75, 75, 75);
     font-size: 2.8rem;
     line-height: 3.8rem;
