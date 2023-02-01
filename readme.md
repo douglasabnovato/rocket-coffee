@@ -1,29 +1,25 @@
-### Sobre o desafio
+<h4 align="center"> 
+	🚧 Rocket Coffee 🚀
+</h4>
 
----
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-5.jpg">
+</p>    
+
+### 💻 Sobre o desafio 
 
 Neste desafio você deverá desenvolver uma homepage para uma marca de café.
 
-#### Layout
+#### 💻 Techs
 
-![preview.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3c2bd17-dd6b-4aa2-b5af-b3b4f2da8eeb/preview.png)
-
-Você pode visualizar o template do projeto clicando [neste link](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate)
-
-
-#### 🚀 **Techs**
-
----
-
+- Nível de dificuldade: Intermediário
 - HTML
 - CSS
 - JavaScript
 
-# 💡**Como começar?**
+#### 💻 Como começar? 
 
----
-
-1 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.  
+1 - Use o link do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate)   como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.  
 
 2 - Leia com atenção todas as instruções do desafio.
 
@@ -31,9 +27,7 @@ Você pode visualizar o template do projeto clicando [neste link](https://www.fi
 
 4 - Compartilhe seu resultado ou tire suas dúvidas na nossa [**comunidade aberta**](https://discord.gg/bacwY2gDCF)  
 
-# ✅ **[Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72)**
-
----
+### 💡 Conteúdos Aplicados
 
 Neste desafio você vai construir uma homepage para uma marca de café*.* Caso você ainda não tenha feito os cursos do Discover ou queira fazer uma revisão, segue abaixo uma lista dos cursos e documentações que podem te ajudar a resolver este desafio.
 
@@ -46,31 +40,28 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 - [O Guia Estelar de JavaScript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script)
 - [Pilotando com a DOM](https://app.rocketseat.com.br/node/pilotando-com-a-dom)
 
-**Requisitos para o desafio:**
+### ✅ Requisitos
 
-- Seguir o layout do Figma.
-- Deixar o layout responsivo conforme o Figma.
-- Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo conforme layout do Figma.
-- Adicionar `hover` nos botões.
+![preview.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3c2bd17-dd6b-4aa2-b5af-b3b4f2da8eeb/preview.png)
 
-**Dica:** 
+#### ✅ **[Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72)**
 
-- Para criar o stroke do título `<Great Code />` utilize a seguinte estilização:
-    
+- [ ] Seguir o layout do Figma.
+- [ ] Deixar o layout responsivo conforme o Figma.
+- [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo conforme layout do Figma.
+- [ ] Adicionar `hover` nos botões.
+
+### 🎨 Style Guide
+
+#### 🎨 css
+
+- [ ] Para criar o stroke do título `<Great Code />` utilize a seguinte estilização:
     ```css
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
     ```
-    
+- [ ] Adicionando animações
 
-***Se desafie também:***
-
-- Adicionando animações
-
-# 🎨 Style Guide
-
----
-
-## **Cores:**
+#### 🎨 Cores 
 
 ```css
 :root {
@@ -83,18 +74,43 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 }
 ```
 
-## **Tipo de fonte:**
+#### 🎨 Fontes 
 
-font-family: Manrope
+- [ ] font-family: Manrope; font-weight: 400 e 700 
 
-font-weight: 400 e 700
+### 📅 Entregas
 
-Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
+A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, listados e descritos as tarefas em readme.
 
-# 📅 Entrega
+#### 📅 Gestão do projeto
 
----
+- [ ] Organizando os detalhes do projeto no readme.md
+- [ ] Uma branch main e uma developer, uma branch para cada tarefa
+- [ ] Favicon
 
-Esses desafios **não precisam ser entregues** e não receberão correção. Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+#### 📅 Aperfeiçoar em detalhes
 
-Feito com 💜 por Rocketseat 👋 Participe da nossa [comunidade aberta](https://discord.gg/bacwY2gDCF)!
+- [ ] [Learn Responsive Design](https://web.dev/learn/design/)
+- [ ] [Learn CSS](https://web.dev/learn/css/)
+
+#### 📅 Telas Finais
+
+- Desktop
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="login form" title="#login-form" src="./.github/desktop-5.jpg" width="400px">
+</p>  
+
+- Mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="login form" title="#rocketnews" src="./.github/mobile-2.jpg" height="400px"> 
+</p>  
+
+#### 📅 Consultas
+
+- [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+
+Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+ 
+Fonte do projeto na [Rocketseat](https://www.rocketseat.com.br/). 👋 Participe da [comunidade aberta](https://discord.gg/bacwY2gDCF)!
