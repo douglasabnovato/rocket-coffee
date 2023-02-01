@@ -80,6 +80,13 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, listados e descritos as tarefas em readme.
 
+- [ ] Menu com 5 Itens
+- [ ] Logo
+- [ ] Botão
+- [ ] Header
+- [ ] Banner
+- [ ] Hamburguer
+
 #### 📅 Gestão do projeto
 
 - [x] Organizando os detalhes do projeto no readme.md
