@@ -74,7 +74,7 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 #### 🎨 Fontes 
 
-- [ ] font-family: Manrope; font-weight: 400 e 700 
+- [x] font-family: Manrope; font-weight: 400 e 700 
 
 ### 📅 Entregas
 
