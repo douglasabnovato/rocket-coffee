@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/capa.png">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/template.png">
 </p>    
 
 ### 💻 Sobre o desafio 
@@ -53,7 +53,7 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 ### 🎨 Style Guide
 
-![preview](./.github/preview.png)
+![preview](./.github/tela.png)
 
 #### 🎨 css
 
