@@ -93,7 +93,8 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [x] Luzes no background 
 - [x] Menu com 5 Itens: estilizar hover
 - [x] Background com os efeitos nos círculos
-- [ ] Botão: estilizar e uma funcionalidade
+- [x] Botão: estilizar 
+- [ ] Botão: uma funcionalidade
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 
 - [ ] criar âncoras do menu
 
