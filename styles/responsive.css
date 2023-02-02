@@ -34,9 +34,9 @@ html {
         width: 40px;
         height: 30px;
         margin-right: 20px;
-    }
+    } 
 
-    .menu-section.on {
+    header .container .menu-section.on {
         position: absolute;
         top: 0;
         left: 0;
@@ -49,34 +49,34 @@ html {
         align-items: center;
     }
 
-    .menu-section.on nav {
+    header .container .menu-section.on nav {
         display: block;
     }
 
-    .menu-section.on .menu-toggle {
+    header .container .menu-section.on .menu-toggle {
         position: absolute;
         right: 25px;
         top: 15px;
     }
 
-    .menu-section.on .menu-toggle .one {
+    header .container .menu-section.on .menu-toggle .one {
         transform: rotate(45deg) translate(7px, 7px);
     }
 
-    .menu-section.on .menu-toggle .two {
+    header .container .menu-section.on .menu-toggle .two {
         opacity: 0;
     }
 
-    .menu-section.on .menu-toggle .three {
+    header .container .menu-section.on .menu-toggle .three {
         transform: rotate(-45deg) translate(8px, -9px);
     }
 
-    .menu-section.on nav ul {
+    header .container .menu-section.on nav ul {
         text-align: center;
         display: block;
     }
 
-    .menu-section.on nav ul a {
+    header .container .menu-section.on nav ul a {
         transition-duration: 0.5s;
         font-size: 3rem;
         line-height: 4rem;
@@ -92,6 +92,7 @@ html {
     }
 
     .top section.slogan {
+        visibility: visible;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 600;
@@ -100,7 +101,7 @@ html {
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--text-color);
-        margin-block: 65px;
+        margin-block: 47px;
     }
 
     section.hero .container .texts {
