@@ -88,6 +88,10 @@ html {
 
 @media (max-width: 375px) {
 
+    body .blur-desktop-right {
+        display: none;
+    }
+
     section.hero .container .texts {
         width: 346px;
         height: 129px;
@@ -116,4 +120,5 @@ html {
         line-height: 68px;
         letter-spacing: -0.03em;
     }
+
 }

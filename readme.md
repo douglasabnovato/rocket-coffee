@@ -90,6 +90,7 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [x] Logo
 - [x] Header
 - [x] Banner
+- [x] Luzes no background 
 - [ ] Menu com 5 Itens: estilizar hover
 - [ ] Botão: estilizar e uma funcionalidade
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 

@@ -35,6 +35,28 @@ body {
     background-color: var(--backgrond);
 }
 
+body .blur-desktop-left{
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: -29px;
+    top: 495px;
+    
+    background: #996DFF;
+    filter: blur(200px);
+}
+
+body .blur-desktop-right{
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: 1127px;
+    top: -63px;
+    
+    background: #996DFF;
+    filter: blur(200px);
+}
+
 /* GERAL */
 
 a {
