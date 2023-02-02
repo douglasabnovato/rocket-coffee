@@ -2,9 +2,6 @@ html {
     font-size: 50%;
 }
 
-/**
-* desktop
-*/
 @media (max-width: 630px) {
 
     .hero .container {
@@ -18,9 +15,6 @@ html {
 
 }
 
-/**
-*  tablet
-*/
 @media (max-width: 540px) {
     nav {
         display: none;
@@ -29,7 +23,7 @@ html {
     .one,
     .two,
     .three {
-        background-color: #fff;
+        background-color: var(--text-color);
         height: 5px;
         width: 100%;
         margin: 6px auto;
@@ -38,52 +32,52 @@ html {
 
     .menu-toggle {
         width: 40px;
-        height: 30px;
-        margin-right: 20px;
+        height: 30px; 
+        margin-left: 140px;
     }
 
-    /* fullscreen */
-    .menu-section.on {
+
+    header .container .menu-section.on {
         position: absolute;
         top: 0;
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: #7159c1;
+        background-color: var(--backgrond);
         z-index: 10;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .menu-section.on nav {
+    header .container .menu-section.on nav {
         display: block;
     }
 
-    .menu-section.on .menu-toggle {
+    header .container .menu-section.on .menu-toggle {
         position: absolute;
         right: 25px;
         top: 15px;
     }
 
-    .menu-section.on .menu-toggle .one {
+    header .container .menu-section.on .menu-toggle .one {
         transform: rotate(45deg) translate(7px, 7px);
     }
 
-    .menu-section.on .menu-toggle .two {
+    header .container .menu-section.on .menu-toggle .two {
         opacity: 0;
     }
 
-    .menu-section.on .menu-toggle .three {
+    header .container .menu-section.on .menu-toggle .three {
         transform: rotate(-45deg) translate(8px, -9px);
     }
 
-    .menu-section.on nav ul {
+    header .container .menu-section.on nav ul {
         text-align: center;
         display: block;
     }
 
-    .menu-section.on nav ul a {
+    header .container .menu-section.on nav ul a {
         transition-duration: 0.5s;
         font-size: 3rem;
         line-height: 4rem;
@@ -92,13 +86,111 @@ html {
 
 }
 
-/**
-* mobile
-*/
 @media (max-width: 375px) {
 
-    section.hero .container .texts .text-um,
-    section.hero .container .texts .text-dois {
-        font-size: 30px;
+    body .blur-desktop-right {
+        display: none;
     }
+
+    header .container {
+        display: flex;
+        justify-content: center; 
+        margin-left: 100px;
+    }
+
+    div.botaopegar {
+        float: right;
+        visibility: hidden;
+    }
+
+    div.botaopegar .nome {
+        display: none;
+    }
+
+    header .container .logo b {
+        color: var(--text-color);
+    }
+
+    .top section.slogan {
+        visibility: visible;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 41px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+        margin-block: 30px;
+        margin-inline: 18px;
+    }
+
+    section.hero .container .texts {
+        width: 346px;
+        height: 129px;
+    }
+
+    section.hero .container .texts .text-um {
+        width: 296px;
+        height: 54px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 68px;
+        letter-spacing: -0.03em;
+    }
+
+    section.hero .container .texts .text-dois {
+        width: 346px;
+        height: 69px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 68px;
+        letter-spacing: -0.03em;
+    }
+
+    section.hero .container .image-coffee img {
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    section.hero .container .image-coffee img {
+        background-size: auto;
+    }
+
+    .top section.hero .container .botaopegar-header {
+        visibility: visible;
+        color: var(--text-color);
+        background: var(--backgrond);
+        border: 1px solid var(--button);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        margin: 0 auto;
+        border-radius: 6px;
+        width: 174.12px;
+        transition: all 150ms linear 0s;
+    }
+
+    .top section.hero .container .botaopegar-header b::after {
+        background-image: url("../assets/arrow.svg");
+        background: white;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        width: 7.12px;
+        height: 11.41px;
+    }
+
+    .top header .container .botaopegar-header:hover {
+        opacity: 0.4;
+        cursor: pointer;
+    }
+
 }

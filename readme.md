@@ -90,11 +90,14 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [x] Logo
 - [x] Header
 - [x] Banner
-- [ ] Menu com 5 Itens: estilizar hover
-- [ ] Botão: estilizar e uma funcionalidade
+- [x] Luzes no background 
+- [x] Menu com 5 Itens: estilizar hover
+- [x] Background com os efeitos nos círculos
+- [x] Botão: estilizar 
+- [x] criar âncoras do menu
+- [ ] Botão: uma funcionalidade
+- [ ] estilizar seção main
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 
-- [ ] Background com os efeitos nos círculos
-- [ ] criar âncoras do menu
 
 #### 📅 Gestão do projeto
 
@@ -112,6 +115,7 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+<img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-3.jpg" width="400px">
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-2.jpg" width="400px">
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-1.jpg" width="400px">
 </p>  
@@ -119,6 +123,8 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-2.jpg" height="400px"> 
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-3.jpg" height="400px"> 
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-1.jpg" height="400px"> 
 </p>  
 
