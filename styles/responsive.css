@@ -2,9 +2,6 @@ html {
     font-size: 50%;
 }
 
-/**
-* desktop
-*/
 @media (max-width: 630px) {
 
     .hero .container {
@@ -18,9 +15,6 @@ html {
 
 }
 
-/**
-*  tablet
-*/
 @media (max-width: 540px) {
     nav {
         display: none;
@@ -92,13 +86,12 @@ html {
 
 }
 
-/**
-* mobile
-*/
 @media (max-width: 375px) {
 
     section.hero .container .texts .text-um,
     section.hero .container .texts .text-dois {
         font-size: 30px;
+        width: 100%;
+        max-width: 100%;
     }
 }
