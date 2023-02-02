@@ -32,9 +32,10 @@ html {
 
     .menu-toggle {
         width: 40px;
-        height: 30px;
-        margin-right: 20px;
-    } 
+        height: 30px; 
+        margin-left: 140px;
+    }
+
 
     header .container .menu-section.on {
         position: absolute;
@@ -91,17 +92,37 @@ html {
         display: none;
     }
 
+    header .container {
+        display: flex;
+        justify-content: center; 
+        margin-left: 100px;
+    }
+
+    div.botaopegar {
+        float: right;
+        visibility: hidden;
+    }
+
+    div.botaopegar .nome {
+        display: none;
+    }
+
+    header .container .logo b {
+        color: var(--text-color);
+    }
+
     .top section.slogan {
         visibility: visible;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 26px;
         line-height: 41px;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--text-color);
-        margin-block: 47px;
+        margin-block: 30px;
+        margin-inline: 18px;
     }
 
     section.hero .container .texts {
@@ -112,7 +133,6 @@ html {
     section.hero .container .texts .text-um {
         width: 296px;
         height: 54px;
-
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
@@ -124,7 +144,6 @@ html {
     section.hero .container .texts .text-dois {
         width: 346px;
         height: 69px;
-
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
@@ -140,6 +159,38 @@ html {
 
     section.hero .container .image-coffee img {
         background-size: auto;
+    }
+
+    .top section.hero .container .botaopegar-header {
+        visibility: visible;
+        color: var(--text-color);
+        background: var(--backgrond);
+        border: 1px solid var(--button);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        margin: 0 auto;
+        border-radius: 6px;
+        width: 174.12px;
+        transition: all 150ms linear 0s;
+    }
+
+    .top section.hero .container .botaopegar-header b::after {
+        background-image: url("../assets/arrow.svg");
+        background: white;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        width: 7.12px;
+        height: 11.41px;
+    }
+
+    .top header .container .botaopegar-header:hover {
+        opacity: 0.4;
+        cursor: pointer;
     }
 
 }

@@ -94,9 +94,10 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [x] Menu com 5 Itens: estilizar hover
 - [x] Background com os efeitos nos círculos
 - [x] Botão: estilizar 
+- [x] criar âncoras do menu
 - [ ] Botão: uma funcionalidade
+- [ ] estilizar seção main
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 
-- [ ] criar âncoras do menu
 
 #### 📅 Gestão do projeto
 
