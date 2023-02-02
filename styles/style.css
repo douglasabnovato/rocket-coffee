@@ -11,7 +11,7 @@
     --border: #29292E;
     --border-menu-mobile: #A8A8B3;
     --text-color-menu-mobile: #E1E1E6;
-    --cor-75:rgb(75, 75, 75);
+    --cor-75: rgb(75, 75, 75);
     --cor-e7: #e74c3c;
     --cor-8e: #8e44ad;
     --text-color-25: rgba(0, 0, 0, 0.25);
@@ -124,7 +124,7 @@ header nav ul li a {
     font-size: 1.4rem;
     padding: 2.4rem;
     transition: all 250ms linear 0s;
-} 
+}
 
 .btn {
     box-sizing: border-box;

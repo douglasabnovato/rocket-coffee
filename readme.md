@@ -91,10 +91,10 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [x] Header
 - [x] Banner
 - [x] Luzes no background 
-- [ ] Menu com 5 Itens: estilizar hover
+- [x] Menu com 5 Itens: estilizar hover
+- [x] Background com os efeitos nos círculos
 - [ ] Botão: estilizar e uma funcionalidade
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 
-- [ ] Background com os efeitos nos círculos
 - [ ] criar âncoras do menu
 
 #### 📅 Gestão do projeto
