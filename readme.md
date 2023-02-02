@@ -115,6 +115,7 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+<img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-3.jpg" width="400px">
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-2.jpg" width="400px">
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/desktop-1.jpg" width="400px">
 </p>  
@@ -122,6 +123,8 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-2.jpg" height="400px"> 
+  <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-3.jpg" height="400px"> 
   <img alt="rocket coffee" title="#rocket-coffee" src="./.github/mobile-1.jpg" height="400px"> 
 </p>  
 
