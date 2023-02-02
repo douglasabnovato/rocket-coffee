@@ -44,8 +44,8 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 
 - [x] layout responsivo 
 - [ ] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
-- [ ] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo: aperfeiçoar o background
-- [ ] Adicionar `hover` nos botões.
+- [x] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo: aperfeiçoar o background
+- [x] Adicionar `hover` nos botões.
 
 ### 🎨 Style Guide
 
@@ -63,7 +63,7 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       opacity: 1;
     ```
-- [ ] Adicionando animações
+- [x] Adicionando animações: botões de menu
 
 #### 🎨 Cores 
 
@@ -95,6 +95,9 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 - [x] Background com os efeitos nos círculos
 - [x] Botão: estilizar 
 - [x] criar âncoras do menu
+
+#### 📅 Próximos passos
+
 - [ ] Botão: uma funcionalidade
 - [ ] estilizar seção main
 - [ ] Hamburguer: na posição correto no mobile, usar as svg 
