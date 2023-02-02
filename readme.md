@@ -43,7 +43,7 @@ Neste desafio você vai construir uma homepage para uma marca de café*.* Caso v
 ### ✅ [Requisitos](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72) 
 
 - [x] layout responsivo 
-- [ ] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
+- [x] layout do [Figma](https://www.figma.com/file/tFoovGllUttTebdUTDVdT8/RocketCoffee/duplicate) 
 - [x] Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo: aperfeiçoar o background
 - [x] Adicionar `hover` nos botões.
 
@@ -133,7 +133,13 @@ A ideia é dominar o processo e o fluxo de desenvolver projetos e por isso, list
 
 #### 📅 Consultas
 
-- [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+- [free coffee icons](https://www.flaticon.com/free-icons/coffee)
+- [icons8 coffee icons](https://icons8.com.br/icons/set/coffee)
+- [css_padding](https://www.w3schools.com/css/css_padding.asp)
+- [exibir código](https://horadecodar.com.br/2020/04/14/como-exibir-codigo-html-em-uma-pagina-web/)
+- [create-a-text-outline](https://www.educative.io/answers/how-to-create-a-text-outline-using-css)
+- [codepen buttons](https://codepen.io/priosoft/pen/dMryaY)
+- [visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility)
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
  
